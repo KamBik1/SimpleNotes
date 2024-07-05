@@ -11,13 +11,13 @@ import XCTest
 final class SimpleNotesTests: XCTestCase {
     
     var sut: NotesListPresenter! // System Under Test (SUT)
-    var noteListViewController: NotesListViewControllerSpy!
-    var dataManager: DataManagerSpy!
+    var noteListViewController: NotesListViewControllerMock!
+    var dataManager: DataManagerMock!
     
     override func setUp() {
         super.setUp()
-        noteListViewController = NotesListViewControllerSpy()
-        dataManager = DataManagerSpy()
+        noteListViewController = NotesListViewControllerMock()
+        dataManager = DataManagerMock()
         sut = NotesListPresenter(view: noteListViewController, userDefaults: dataManager, notes: [])
     }
 

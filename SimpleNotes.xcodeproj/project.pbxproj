@@ -18,8 +18,8 @@
 		8E2EA4182C32FBE0004432E2 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA4172C32FBE0004432E2 /* Note.swift */; };
 		8E2EA41A2C32FDF1004432E2 /* NotesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA4192C32FDF1004432E2 /* NotesListPresenter.swift */; };
 		8E2EA41D2C33035C004432E2 /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA41C2C33035C004432E2 /* ViewBuilder.swift */; };
-		8EC1FF5E2C38816C000037AB /* NotesListViewControllerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC1FF5D2C38816C000037AB /* NotesListViewControllerSpy.swift */; };
-		8EC1FF602C38856E000037AB /* DataManagerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC1FF5F2C38856E000037AB /* DataManagerSpy.swift */; };
+		8EC1FF5E2C38816C000037AB /* NotesListViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC1FF5D2C38816C000037AB /* NotesListViewControllerMock.swift */; };
+		8EC1FF602C38856E000037AB /* DataManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC1FF5F2C38856E000037AB /* DataManagerMock.swift */; };
 		8ED0D72C2C3487FE006BA14B /* DetailedNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0D72B2C3487FE006BA14B /* DetailedNoteViewController.swift */; };
 		8ED0D72E2C34889B006BA14B /* DetailedNotePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0D72D2C34889B006BA14B /* DetailedNotePresenter.swift */; };
 		8ED0D7312C35B2F1006BA14B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0D7302C35B2F1006BA14B /* DataManager.swift */; };
@@ -58,8 +58,8 @@
 		8E2EA4172C32FBE0004432E2 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		8E2EA4192C32FDF1004432E2 /* NotesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListPresenter.swift; sourceTree = "<group>"; };
 		8E2EA41C2C33035C004432E2 /* ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
-		8EC1FF5D2C38816C000037AB /* NotesListViewControllerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewControllerSpy.swift; sourceTree = "<group>"; };
-		8EC1FF5F2C38856E000037AB /* DataManagerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerSpy.swift; sourceTree = "<group>"; };
+		8EC1FF5D2C38816C000037AB /* NotesListViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewControllerMock.swift; sourceTree = "<group>"; };
+		8EC1FF5F2C38856E000037AB /* DataManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerMock.swift; sourceTree = "<group>"; };
 		8ED0D72B2C3487FE006BA14B /* DetailedNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedNoteViewController.swift; sourceTree = "<group>"; };
 		8ED0D72D2C34889B006BA14B /* DetailedNotePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedNotePresenter.swift; sourceTree = "<group>"; };
 		8ED0D7302C35B2F1006BA14B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -127,8 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				8E2EA3FA2C32F4C7004432E2 /* SimpleNotesTests.swift */,
-				8EC1FF5D2C38816C000037AB /* NotesListViewControllerSpy.swift */,
-				8EC1FF5F2C38856E000037AB /* DataManagerSpy.swift */,
+				8EC1FF5D2C38816C000037AB /* NotesListViewControllerMock.swift */,
+				8EC1FF5F2C38856E000037AB /* DataManagerMock.swift */,
 			);
 			path = SimpleNotesTests;
 			sourceTree = "<group>";
@@ -342,8 +342,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EC1FF5E2C38816C000037AB /* NotesListViewControllerSpy.swift in Sources */,
-				8EC1FF602C38856E000037AB /* DataManagerSpy.swift in Sources */,
+				8EC1FF5E2C38816C000037AB /* NotesListViewControllerMock.swift in Sources */,
+				8EC1FF602C38856E000037AB /* DataManagerMock.swift in Sources */,
 				8E2EA3FB2C32F4C7004432E2 /* SimpleNotesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
